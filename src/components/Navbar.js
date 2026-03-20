@@ -60,7 +60,7 @@ class Navbar extends Component {
             {menuOpen && (
               <div className=" resmenu w-100 ">
                 <NavLink to="/" className={({ isActive }) => isActive ? "text-primary" : "text-white hover"}>
-                 product
+                 products
                 </NavLink>
                 <ProductConsumer>
                   {value => (<li style={{
@@ -78,7 +78,7 @@ class Navbar extends Component {
                 </Link>
                 <Link to="/cart" className="ml-auto">
                   <ButtonContainer>
-                    <i className="fas fa-cart-plus">my carts</i>
+                    <i className="fas fa-cart-plus">my cart</i>
                   </ButtonContainer>
                 </Link>
               </div>
