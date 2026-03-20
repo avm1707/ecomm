@@ -60,7 +60,7 @@ class Navbar extends Component {
             {menuOpen && (
               <div className=" resmenu w-100 ">
                 <NavLink to="/" className={({ isActive }) => isActive ? "text-primary" : "text-white hover"}>
-                  Products
+                  Items
                 </NavLink>
                 <ProductConsumer>
                   {value => (<li style={{
